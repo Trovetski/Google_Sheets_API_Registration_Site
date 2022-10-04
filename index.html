@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang=""en>
+<!--ya29.A0ARrdaM-ioeNYxG7t_8mgTUGJ5sQVh4bIPObGBBDC7-tDGwFTum02a2gOJ6MwsVKIfBpmrL1Tv_VoziOciaGijAkxDEsxeSYErJO7GtLiWuo0nvob6ltZCGqwNmoB-6JesMm6jf_TKbYl_gRCR4rH7D_3ThbM-->>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>BRAINWORKS TASK 1</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="/script.js"></script>
+    
+</head>
+
+<body class="body">
+    <div class="container" style="color: #525252; max-width: 75%;">
+        <div class="py-5 text-center">
+            <h1 class="text-center" style="font-weight: bold;">Brainworks Task 1</h1>
+        </div>
+        <hr style="height: 2px; background-color: darkgray; margin: auto;">
+        <div class="row">
+            <div class="col-md-6 order-md-2 mb-4">
+                
+                    <div class="mb-3" style="max-width: 80%;">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                    </div>
+                    <div class="mb-3" style="max-width: 80%; margin-top: 2%;">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="mb-3" style="display: flex; justify-content: center; max-width: 80%;">
+                        <button style="margin-top: 20px; max-width: 25%;" class="btn btn-primary btn-lg btn-block" onclick="handleSignIn()" >Save</button>
+                    </div>
+                
+            </div>
+            <div class="col-md-6 order-md-2 mb-4">
+                
+                    <div class="mb-3" style="max-width: 80%;">
+                        <label for="firstNameFetch">First Name</label>
+                        <input type="text" class="form-control" id="firstNameFetch" placeholder="First Name">
+                    </div>
+                    <div class="mb-3" style="max-width: 80%; margin-top: 2%; display: flex; justify-content: center;">
+                        <p id="lastNameDisplay">Last Name</p>
+                    </div>
+                    <div class="mb-3" style="display: flex; justify-content: center; max-width: 80%;">
+                        <button style="margin-top: 20px; max-width: 25%;" class="btn btn-primary btn-lg btn-block" onclick="getSheetValues()">Fetch</button>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
